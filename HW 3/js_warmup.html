@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .button style{
+            color: rgb(204, 247, 247);
+        }
+    </style>
+</head>
+<body>
+    <button class="button">
+        Counter
+    </button>
+    <!--Javascript code-->
+    <script src=https://code.jquery.com/jquery-3.3.1.min.js crossorigin="anonymous"></script>
+    <script>
+        $(document).ready(function (){
+            const counterElm = $(".button");
+            counterElm.click(function(){
+                const randomNumber = Math.floor(Math.random()*100)
+                console.log("I was clicked " + randomNumber)
+                alert("I am alert!")
+            });
+        })
+        
+    </script>
+</body>
+</html>

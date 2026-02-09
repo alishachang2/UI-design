@@ -1,0 +1,210 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Twitter Home Layout</title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    crossorigin="anonymous">
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    .top-banner {
+      background-color: #8fd1e4;
+      color: #ffffff;
+      font-size: 20px;
+      font-weight: bold;
+      text-align: center;
+      padding: 12px 0;
+    }
+
+    .nav-bar {
+      background-color: #e5e5e5;
+      padding: 8px 24px;
+    }
+
+    .nav-item {
+      display: inline-block;
+      margin-right: 24px;
+      font-size: 14px;
+    }
+
+    .section-title {
+      font-weight: bold;
+      margin: 18px 0 10px 0;
+    }
+
+    .image-wrapper {
+      margin-bottom: 16px;
+    }
+
+    .featured-title {
+      font-weight: bold;
+      margin: 24px 0 10px 0;
+    }
+
+    .grid-title {
+      font-weight: bold;
+      margin: 24px 0 10px 0;
+    }
+
+    img.columbia {
+      width: 100%;
+      display: block;
+    }
+  </style>
+</head>
+<body>
+  <div class="container-fluid p-0">
+    <!-- Top banner -->
+    <div class="row">
+      <div class="col-12 top-banner">
+        What's happening?
+      </div>
+    </div>
+
+    <!-- Nav bar -->
+    <div class="row">
+      <div class="col-12 nav-bar">
+        <div class="nav-item">Home</div>
+        <div class="nav-item">About</div>
+        <div class="nav-item">Submission Deadlines</div>
+        <div class="nav-item">FAQ</div>
+        <div class="nav-item">Contact</div>
+      </div>
+    </div>
+
+    <!-- Main content container -->
+    <div class="container mt-3">
+
+      <!-- Section header and big image -->
+      <div class="row">
+        <div class="col-12 section-title">Section header</div>
+      </div>
+
+      <div class="row image-wrapper">
+        <!-- big image takes 8/12 on md+, full width on xs -->
+        <div class="col-12 col-md-8">
+          <img class="columbia"
+               src="http://coms4170.cs.columbia.edu/2020-spring/hw/hw2/columbia.jpg"
+               alt="Columbia 1">
+        </div>
+      </div>
+
+      <!-- Row of four smaller images -->
+      <div class="row image-wrapper">
+        <div class="col-6 col-md-3">
+          <img class="columbia"
+               src="http://coms4170.cs.columbia.edu/2020-spring/hw/hw2/columbia.jpg"
+               alt="col2">
+        </div>
+        <div class="col-6 col-md-3">
+          <img class="columbia"
+               src="http://coms4170.cs.columbia.edu/2020-spring/hw/hw2/columbia.jpg"
+               alt="col3">
+        </div>
+        <div class="col-6 col-md-3">
+          <img class="columbia"
+               src="http://coms4170.cs.columbia.edu/2020-spring/hw/hw2/columbia.jpg"
+               alt="col4">
+        </div>
+        <div class="col-6 col-md-3">
+          <img class="columbia"
+               src="http://coms4170.cs.columbia.edu/2020-spring/hw/hw2/columbia.jpg"
+               alt="col5">
+        </div>
+      </div>
+
+      <!-- Featured row -->
+      <div class="row">
+        <div class="col-12 featured-title">Featured</div>
+      </div>
+
+      <div class="row image-wrapper">
+        <div class="col-12 col-md-4">
+          <img class="columbia"
+               src="http://coms4170.cs.columbia.edu/2020-spring/hw/hw2/columbia.jpg"
+               alt="feat1">
+        </div>
+        <div class="col-12 col-md-4">
+          <img class="columbia"
+               src="http://coms4170.cs.columbia.edu/2020-spring/hw/hw2/columbia.jpg"
+               alt="feat2">
+        </div>
+        <div class="col-12 col-md-4">
+          <img class="columbia"
+               src="http://coms4170.cs.columbia.edu/2020-spring/hw/hw2/columbia.jpg"
+               alt="feat3">
+        </div>
+      </div>
+
+      <!-- Grid within grid -->
+      <div class="row">
+        <div class="col-12 grid-title">Grid Within Grid</div>
+      </div>
+
+      <div class="row">
+        <!-- narrow column that contains a nested grid -->
+        <div class="col-12 col-md-3">
+          <div class="row">
+            <div class="col-4 col-md-4 image-wrapper">
+              <img class="columbia"
+                   src="http://coms4170.cs.columbia.edu/2020-spring/hw/hw2/columbia.jpg"
+                   alt="g1">
+            </div>
+            <div class="col-4 col-md-4 image-wrapper">
+              <img class="columbia"
+                   src="http://coms4170.cs.columbia.edu/2020-spring/hw/hw2/columbia.jpg"
+                   alt="g2">
+            </div>
+            <div class="col-4 col-md-4 image-wrapper">
+              <img class="columbia"
+                   src="http://coms4170.cs.columbia.edu/2020-spring/hw/hw2/columbia.jpg"
+                   alt="g3">
+            </div>
+            <div class="col-4 col-md-4 image-wrapper">
+              <img class="columbia"
+                   src="http://coms4170.cs.columbia.edu/2020-spring/hw/hw2/columbia.jpg"
+                   alt="g4">
+            </div>
+            <div class="col-4 col-md-4 image-wrapper">
+              <img class="columbia"
+                   src="http://coms4170.cs.columbia.edu/2020-spring/hw/hw2/columbia.jpg"
+                   alt="g5">
+            </div>
+            <div class="col-4 col-md-4 image-wrapper">
+              <img class="columbia"
+                   src="http://coms4170.cs.columbia.edu/2020-spring/hw/hw2/columbia.jpg"
+                   alt="g6">
+            </div>
+            <div class="col-4 col-md-4 image-wrapper">
+              <img class="columbia"
+                   src="http://coms4170.cs.columbia.edu/2020-spring/hw/hw2/columbia.jpg"
+                   alt="g7">
+            </div>
+            <div class="col-4 col-md-4 image-wrapper">
+              <img class="columbia"
+                   src="http://coms4170.cs.columbia.edu/2020-spring/hw/hw2/columbia.jpg"
+                   alt="g8">
+            </div>
+            <div class="col-4 col-md-4 image-wrapper">
+              <img class="columbia"
+                   src="http://coms4170.cs.columbia.edu/2020-spring/hw/hw2/columbia.jpg"
+                   alt="g9">
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</body>
+</html>

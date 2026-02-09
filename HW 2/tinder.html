@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Tinder Card</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: #f2f2f2;
+      font-family: Arial, sans-serif;
+    }
+
+    .card {
+      width: 320px;
+      margin: 40px auto;
+      background-color: #ffffff;
+      border: 1px solid #dddddd;
+      border-radius: 24px;
+      overflow: hidden;        
+    }
+
+    .logo-area {
+      text-align: center;
+      padding: 20px 0;
+    }
+
+    .logo-image {
+      width: 120px;
+    }
+
+    .separator {
+      border: 0;
+      border-top: 1px solid #e0e0e0;
+      margin: 0;
+    }
+
+    .person-image {
+      width: 100%;
+      display: block;
+    }
+
+    .info-area {
+      padding: 16px 20px 20px 20px;
+    }
+
+    .name-row {
+      font-size: 18px;
+      font-weight: bold;
+      color: #555555;
+      white-space: nowrap;
+    }
+
+    .age {
+      color: #777777;
+    }
+
+    .verified-icon {
+      width: 18px;
+      margin-left: 6px;
+      vertical-align: middle;
+    }
+
+    .verified-text {
+      display: block;
+      margin-top: 4px;
+      font-size: 12px;
+      color: #aaaaaa;
+    }
+
+    .button-area {
+      text-align: center;
+      padding: 16px 0 22px 0;
+    }
+
+    .like-button {
+      display: inline-block;
+      padding: 10px 26px;
+      background-color: #d4cfd4;
+      border-radius: 24px;
+      font-size: 14px;
+      color: #ffffff;
+    }
+
+    .heart-icon {
+      width: 14px;
+      margin-right: 6px;
+      vertical-align: middle;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <div class="logo-area">
+      <img
+        class="logo-image"
+        src="https://coms4170.cs.columbia.edu/2019-spring/assignments/hw2/tinder_images/tinder_logo.png"
+        alt="Tinder logo">
+    </div>
+
+    <hr class="separator">
+
+    <img
+      class="person-image"
+      src="https://coms4170.cs.columbia.edu/2019-spring/assignments/hw2/tinder_images/tinder_person.png"
+      alt="Profile">
+
+    <div class="info-area">
+      <div class="name-row">
+        <span>Sean Rad, <span class="age">29</span></span>
+        <span>
+          <img
+            class="verified-icon"
+            src="https://coms4170.cs.columbia.edu/2019-spring/assignments/hw2/tinder_images/tinder_verified.png"
+            alt="Verified">
+        </span>
+      </div>
+      <span class="verified-text">Verified</span>
+    </div>
+
+    <div class="button-area">
+      <span class="like-button">
+        <img
+          class="heart-icon"
+          src="https://coms4170.cs.columbia.edu/2019-spring/assignments/hw2/tinder_images/heart.png"
+          alt="Heart">
+        <span>Like Me On Tinder</span>
+      </span>
+    </div>
+  </div>
+</body>
+</html>

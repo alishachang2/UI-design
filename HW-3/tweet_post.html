@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tweet Post</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
+</head>
+<body>
+    <div>Write a tweet</div>
+    <input type="text" class="textBox">
+    <div class="col-6 col-md-4">
+         <!--CHARACTERS REMAINING-->
+        <div class="characters_remaining">15</div>
+
+        <!--POST BUTTON-->
+        <button class="post">Post Tweet</button>
+
+        <!--ALL THE POSTS-->
+        <div class="all_posts">
+            
+        </div>
+    </div>
+    <!--JAVASCRIPT-->
+    <script src=https://code.jquery.com/jquery-3.3.1.min.js crossorigin="anonymous">
+        let charRemaining = $(".characters_remaining");
+        var textBox = document.createElement("textBox");
+        textBox.setAttribute("type,", "text");
+        let maxLength = textBox.maxLength(30);
+        //check if length works use disable when it hits 30, turn off the post button
+        $(document).ready(function(){
+            //post button action
+            $(".post").click(function(){
+
+            }
+            )
+
+
+        })
+    </script>
+</body>
+</html>
